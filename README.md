@@ -24,11 +24,3 @@ But obviously, the INTERNET ;)
  
 1. All the Rancher Docker scripts are designed according to the Rancher's requirement for Docker. But, you can also use them for simple docker setup.
 2. DM for any changes or request for new script.
-
-
-## Authors
-
-* **Prashant Piprotar** - - [Prash+](https://github.com/prashplus)
-
-Visit my blog for more Tech Stuff
-### http://www.prashplus.com
