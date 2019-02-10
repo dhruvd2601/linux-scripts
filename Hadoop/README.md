@@ -21,11 +21,3 @@ Step 2: Execute the script
 ```bash
 sudo bash singlenode-setup.sh
 ```
-
-
-## Authors
-
-* **Prashant Piprotar** - - [Prash+](https://github.com/prashplus)
-
-Visit my blog for more Tech Stuff
-### http://www.prashplus.com
