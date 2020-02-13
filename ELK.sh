@@ -27,3 +27,7 @@ echo 'logging.dest: /var/log/kibana/kibana.log'     >> /etc/kibana/kibana.yml
 systemctl enable kibana
 systemctl start kibana
 systemctl status kibana
+sudo yum install metricbeat -y
+sleep 60
+sudo metricbeat setup --template -E 'output.elasticsearch.hosts=["localhost:9200"]'
+sudo metricbeat setup -e -E output.elasticsearch.hosts=['localhost:9200'] -E setup.kibana.host=localhost:5601
