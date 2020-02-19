@@ -31,3 +31,6 @@ sudo yum install metricbeat -y
 sleep 60
 sudo metricbeat setup --template -E 'output.elasticsearch.hosts=["localhost:9200"]'
 sudo metricbeat setup -e -E output.elasticsearch.hosts=['localhost:9200'] -E setup.kibana.host=localhost:5601
+systemctl enable metricbeat 
+systemctl restart metricbeat
+systemctl status metricbeat
